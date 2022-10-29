@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas aúdios e vídeos</title>
+    <style>
+        .vmo{
+            text-align: right;
+        }
+
+        div{
+            width: 643px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem grande">
+    </picture>
+
+    <h1>Áudios</h1>
+
+    <audio src="audios/Pray - Anno Domini Beats.mp3" controls autoplay>Música</audio>
+    <!-- primeira maneira para colocar áudios em sites -->
+
+    <audio preload="metadata" controls loop>
+        <source src="audios/Pray - Anno Domini Beats.mp3" type="audio/mpeg">
+        <source src="audios/Pray - Anno Domini Beats.ogg" type="audio/ogg">
+        <source src="audios/Pray - Anno Domini Beats.wav" type="audio/wav">
+        <p>seu navegador não suporta esses áudios <a href="audios/Pray - Anno Domini Beats.mp3" download="Pray - Anno Domini Beats.mp3" type="audio.mpeg"></a></p>
+    </audio>
+    
+    <!-- segunda maneira para colocar áudios em sites -->
+
+    <h1>Vídeos</h1>
+
+    <video src="videos/xWYk1wGz3RGFjpDR.mp4" controls height="300px" width="300px" poster="imagens/34f05044ecdf315df01d63738d30cbf9.jpg"></video>
+    <!-- primeira maneira de colocar vídeos em sites -->
+
+    <video poster="imagens/34f05044ecdf315df01d63738d30cbf9.jpg" controls width="300px" height="300px">
+        <source src="videos/xWYk1wGz3RGFjpDR.mp4" type="video/mp4">
+        <source src="videos/xWYk1wGz3RGFjpDR.mkv" type="video/mkv">
+        <source src="videos/xWYk1wGz3RGFjpDR.gif" type="video/gif">
+        <p>Infelizmente seu navegador não pôde carregar o vídeo</p>
+    </video>  <br>
+    <!-- segunda maneira para colocar vídeos em sites -->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aWPKrHP9dF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <div>
+        <iframe src="https://player.vimeo.com/video/239251534?h=adbd4e018d" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p class="vmo"><a href="https://vimeo.com/239251534">ELYSIUM</a> from <a href="https://vimeo.com/benosaradzic">Beno Saradzic</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </div>
+    
+
+
+
+
+    
+
+
+
+
+    
+    
+</body>
+</html>

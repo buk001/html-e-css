@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudos</title>
+    <style>
+        body{
+            font: 1em arial, helvetica, sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        .especial:hover{
+            text-decoration: none;
+            background-color: black;
+            color: white;
+
+        }
+
+        .especial::before{
+            content: '»';
+        }
+
+        .especial::after{
+            content: '«';
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+
+    <p>Para aprender HTML5, acesse o <a href="https://www.google.com" target="_blank" rel="external">Google</a></p>
+
+    <p>Se quiser conhecer mais od padrões, visite o site do Escritório do <a href="https://www.w3c.com.br" target="_blank" rel="external">W3C</a> no Brasil</p>
+
+    <p>Para acompanhar os cursos, acesse <a href="https://www.youtube.com" target="_blank" rel="external" class="especial">youtube</a></p>
+    
+</body>
+</html>

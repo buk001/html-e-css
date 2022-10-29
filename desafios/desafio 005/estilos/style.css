@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* evitar problemas com acentuação */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    max-width: 500px;
+    text-align: justify;
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+a:hover{
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+
+
+
+
+.face-cor{
+    background-color: #3B5997;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.inst-cor{
+    background-image: linear-gradient(135deg, #723BBF, #D92B8B, #F24968, #F27329, #F2AF5C);
+    padding: 3px;
+    border-radius: 3px;
+    color: white;
+}
+
+.twit-cor{
+    background-color: #00ACED;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.you-cor{
+    background-color: #FE0002;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+
+
+
+
+.link-face:hover{
+    background-color: #3B5997;
+}
+
+.link-inst:hover{
+    background-image: linear-gradient(135deg, #723BBF, #D92B8B, #F24968, #F27329, #F2AF5C);
+}
+
+.link-twit:hover{
+    background-color: #00ACED;
+}
+
+.link-you:hover{
+    background-color: #FE0002;
+}
