@@ -27,7 +27,6 @@ body{
 
 header{
     background-image: linear-gradient(to top, var(--cor5), var(--cor3));
-    height: 150px;
     margin: -8px -8px 0px -8px;
     text-align: center;
     padding-top: 1px;
@@ -49,6 +48,7 @@ header p{
     margin: auto;
     text-shadow: 1px 1px 1px black;
     font-size: 1em;
+    padding-bottom: 14px;
 }
 
 nav{
