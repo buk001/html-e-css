@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        a{
+            color: royalblue;
+            text-decoration: none;
+
+        }
+
+        a:visited{
+            color: red;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: greenyellow;
+        }
+
+        a.especial{
+            background-color: lightblue;
+        }
+
+        a.especial::before{
+            content: '☛';
+        }
+
+        a.especial::after{
+                content: '☚';
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.google.com.br" target="_blank">google</a></li>
+        <li><a href="https://www.youtube.com.br" target="_blank" class="especial">youtube</a></li>
+        <li><a href="https://www.instagram.com.br" target="_blank">instagram</a></li>
+    </ul>
+</body>
+</html>
