@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* evitar problemas com acentuação gráfica */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
