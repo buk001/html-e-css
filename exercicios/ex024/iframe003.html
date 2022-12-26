@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso do iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#mold{
+            width: 96vw;
+            border: 1px solid black;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Navegação no iframe</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio doloremque obcaecati eum, quidem eveniet corporis cupiditate amet animi corrupti deserunt et porro facilis temporibus ab numquam ex at! Laboriosam, quas?</p>
+
+
+    <ul>
+        <li>
+            <a href="paginas-extras/pag001.html" target="frame" rel="next">primeira página</a>
+        </li>
+        <li>
+            <a href="paginas-extras/pag002.html" target="frame" rel="next">segunda página</a>
+        </li>
+        <li>
+            <a href="paginas-extras/pag003.html" target="frame" rel="next">terceira página</a>
+        </li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iure neque quod minima temporibus totam ex eaque. Quos provident odio aliquid expedita, accusantium vero reiciendis dolorem totam porro ipsa delectus.</p>
+
+        <iframe id="mold" name="frame" srcdoc="<h1 style='text-align: center;'>Iframe</h1><p style='text-align: center;'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed magnam earum provident cumque numquam, minus unde necessitatibus porro ipsum itaque? Expedita quas ea dolorum, maiores sequi in reiciendis soluta molestiae!</p><img src='imagens/cursoemvideo.png'>">
+            <p class="abc" >Seu navegador não é compatível</p>
+        </iframe>
+    
+    
+    <p style="text-align: center; color: aqua;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui culpa voluptatibus, magnam placeat pariatur voluptate in libero voluptates minima provident officia consequatur, quae deleniti non aspernatur ducimus, a maiores ullam.</p>
+</body>
+</html>
